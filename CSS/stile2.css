@@ -1,48 +1,45 @@
 body{
-    background-color:lightgray;
+    background-color: white;
 }
-h1{
-    text-align: center;
-    background-color: dimgray;
+#Michael{
+    width: 500px;
+    height: 500px;
+    border-radius: 81px;
+    display: block;
+    margin: auto;
 }
-h3{
-    font-weight: normal;
-}
-
-section {
-    padding: 20px;
-    text-align: center;
-    gap: 10px;
-    background-color:dimgray;
-}
-.imageness img {
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-}
-.imageness img:hover {
-    transform: scale(1.2);
-}
-
-#botoncito{
-    color: rgb(255, 255, 255);
-    background:rgb(66, 112, 199);
-    font-family: Arial;
-    font-size: larger;
-    border-radius: 5cap;
-}
-#botoncito:hover{
-    background-color:rgb(159, 188, 241);
+#cancer{
+    width: 470px;
+    height: 470px;
+    border-radius: 81px;
+    display: block;
+    margin: auto;
 }
 
 #pablo{
-    width: 350px;
-    height: 350px;
-    border-radius: 70px;
+    width: 500px;
+    height: 450px;
+    border-radius: 81px;
     display: block;
     margin: auto;
+}
+#freddy{
+    width: 470px;
+    height: 470px;
+    border-radius: 81px;
+    display: block;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    background-color: lightslategray;
+}
+h2{
+    text-align: center;
+    background-color: lightslategray;
+}
+h3{
+    font-weight: normal;
 }
 
 nav{
@@ -124,32 +121,4 @@ nav ul li .submenu li a {
 
 nav ul li .submenu li a:hover {
     background-color: darkgray;
-}
-
-table {
-    width: 60%;
-    margin: 0 auto; /*centra la tabla*/
-    border-collapse: collapse;
-    background-color: lightgrey;
-}
-
-th, td {
-    padding: 15px;
-    text-align: center;
-    border: 1px solid lightgray;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-}
-
-td img{
-    width: 200px;
-    height: 200px;
-    border-radius: 79px;
-    transition: transform 0.3s ease;
-}
-tr:hover {
-    background-color: rgb(187, 187, 187);
-}
-td img:hover {
-    transform: scale(1.2);
 }
